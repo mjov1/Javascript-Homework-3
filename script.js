@@ -12,3 +12,5 @@ if (typeof character === 'string') {
 } else {
     console.log("Invalid Character")
 }
+
+// Solution to exercise 1 ends here
