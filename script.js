@@ -33,4 +33,31 @@ if (typeof a === 'number' && typeof b === 'number' && typeof c === 'number') {
 
 // Solution to exercise 2 ends here
 
+// Solution to exercise 3 starts here
+
+let points = 69;
+
+switch (typeof points === "number") {
+    case (points >= 0 && points < 50):
+        console.log("Not enought points");
+        break;
+    case (points >= 50 && points <= 59):
+        console.log("6");
+        break;
+    case (points >= 60 && points <= 69):
+        console.log("7");
+        break;
+    case (points >= 70 && points <= 79):
+        console.log("8");
+        break;
+    case (points >= 80 && points <= 89):
+        console.log("9");
+        break;
+    case (points >= 90 && points <= 100):
+        console.log("10");
+        break;
+    default:
+        console.log("Invalid Points");
+}
+
 
