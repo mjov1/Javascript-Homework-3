@@ -60,4 +60,26 @@ switch (typeof points === "number") {
         console.log("Invalid Points");
 }
 
+// Solution to exercise 3 ends here
+
+
+// Solution to exercise 4 starts here
+
+{
+    let a= "c";
+
+switch (a) {
+    case a = "c":
+    case a = "k":
+        console.log("circle")
+        break;
+    case a = "p":
+    case a = "m":
+    case a = "n":
+        console.log("square")
+        break;
+    default:
+        console.log("triangle")
+}
+}
 
