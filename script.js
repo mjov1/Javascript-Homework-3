@@ -85,3 +85,33 @@ switch (a) {
 
 // Solution to exercise 4 ends  here
 
+
+// Solution to exercise 5 starts here
+{
+    let a = 10;
+let b = 2;
+let operator = "+";
+
+switch (operator) {
+    case "+":
+        console.log(a + b)
+        break;
+    case "-":
+        console.log(a - b)
+        break;
+    case "*":
+        console.log(a * b)
+        break;
+    case "/":
+        if(b === 0) {
+            console.log("Division by 0")
+        }
+        else{
+            console.log(a / b)
+        }
+        break;
+    default:
+        console.log("Invalid operator")                
+}
+}
+
