@@ -66,7 +66,7 @@ switch (typeof points === "number") {
 // Solution to exercise 4 starts here
 
 {
-    let a= "c";
+let a= "c";
 
 switch (a) {
     case a = "c":
@@ -82,4 +82,6 @@ switch (a) {
         console.log("triangle")
 }
 }
+
+// Solution to exercise 4 ends  here
 
